@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="mainContent">
+            <div id=title><h1>Hangman Game</h1> <label>the hidden - Enter a letter</label> </div>
+            <div id="person">
+                <svg height="260" width="200" class="figureContainer">
+                    <!--Rod -->
+                    <line x1="60" y1="20" x2="140" y2="20"/>
+                    <line x1="137" y1="20" x2="137" y2="50" />
+                    <line x1="60" y1="17.5" x2="60" y2="250" />
+                    <line x1="100" y1="250" x2="20" y2="250"/>
+
+                    <circle cx="137" cy="60" r="20" id="head" />
+                    <line x1="137" y1="80" x2="137" y2="150" id="mainBody"/>
+
+                    
+                    <!--hands-->
+                    <line x1="137" y1="108" x2="117" y2="130" id="leftHand"/>
+                    <line x1="137" y1="108" x2="157" y2="130" id="rightHand"/>
+
+                    <!--Legs-->
+                    <line x1="137" y1="148" x2="117" y2="180" id="leftLeg"/>
+                    <line x1="137" y1="148" x2="157" y2="180" id="rightLeg"/>
+                </svg>
+                <div id=guessing>
+                    <div id="word"> Word</div>
+                    <h1 id="guessWord"></h1>
+                    <h1 id="guessedDash"></h1>
+                </div>
+
+            </div>
+            
+        </div>
+        <footer>dfhdsfgkj</footer>
+        <script src="index.js"></script>
+    </body>
+</html>
