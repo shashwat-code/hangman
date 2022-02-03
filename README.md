@@ -1,5 +1,5 @@
 # Hangman
-> Game is all about guessing the correct word from diffrernt types of data structure
+> Game is all about guessing the correct word from different types of data structure
 ##
 ## All About Game
 The player guessing the word may, at any time, attempt to guess the whole word. If the word is correct, the game is over and the guesser wins. Otherwise, the other player may get penalized by adding an element to the diagram. On the other hand, if the player makes enough incorrect guesses it will complete the diagram, and player loses. 
